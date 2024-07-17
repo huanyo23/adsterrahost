@@ -1,9 +1,14 @@
-/* Your existing CSS styles remain unchanged */
-body {
-    font-family: Arial, sans-serif;
+/* Resetting styles and basic setup */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -73,6 +78,7 @@ nav ul li a {
     border-radius: 5px;
     font-size: 18px;
     display: inline-block;
+    margin: 10px; /* Add margin for spacing between buttons */
     transition: background-color 0.3s;
 }
 
@@ -95,6 +101,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
+    padding: 0 20px; /* Adjust padding as needed */
 }
 
 .movie {
